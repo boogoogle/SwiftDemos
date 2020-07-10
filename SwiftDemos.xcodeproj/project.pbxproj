@@ -13,10 +13,17 @@
 		F8813F4924A1A1FE00E4201D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8813F4824A1A1FE00E4201D /* Assets.xcassets */; };
 		F8813F4C24A1A1FE00E4201D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8813F4B24A1A1FE00E4201D /* Preview Assets.xcassets */; };
 		F8813F4F24A1A1FE00E4201D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8813F4D24A1A1FE00E4201D /* LaunchScreen.storyboard */; };
+		F8B2743F24B42A94007A48E0 /* ListUpdatesDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2743E24B42A94007A48E0 /* ListUpdatesDemo.swift */; };
+		F8B2744324B5D650007A48E0 /* ButtonDemos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2744224B5D650007A48E0 /* ButtonDemos.swift */; };
+		F8B2744524B6EAE1007A48E0 /* Demo4JSbridage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2744424B6EAE1007A48E0 /* Demo4JSbridage.swift */; };
+		F8B2744824B6EFC6007A48E0 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2744724B6EFC6007A48E0 /* Webview.swift */; };
+		F8B2744A24B70AF3007A48E0 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2744924B70AF3007A48E0 /* Bridge.swift */; };
+		F8D229A324AB28EC001F7EAB /* CardEffections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D229A224AB28EC001F7EAB /* CardEffections.swift */; };
+		F8D229B124AF3E60001F7EAB /* GeometryReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D229B024AF3E60001F7EAB /* GeometryReaderDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8813F3F24A1A1FD00E4201D /* SwiftDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8813F3F24A1A1FD00E4201D /* SwiftDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftDemos.app; path = "/Users/boo/Desktop/boo_file/iOS/SwiftDemos/build/Debug-iphoneos/SwiftDemos.app"; sourceTree = "<absolute>"; };
 		F8813F4224A1A1FD00E4201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8813F4424A1A1FD00E4201D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F8813F4624A1A1FD00E4201D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		F8813F4B24A1A1FE00E4201D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8813F4E24A1A1FE00E4201D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8813F5024A1A1FE00E4201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B2743E24B42A94007A48E0 /* ListUpdatesDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUpdatesDemo.swift; sourceTree = "<group>"; };
+		F8B2744224B5D650007A48E0 /* ButtonDemos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemos.swift; sourceTree = "<group>"; };
+		F8B2744424B6EAE1007A48E0 /* Demo4JSbridage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4JSbridage.swift; sourceTree = "<group>"; };
+		F8B2744724B6EFC6007A48E0 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+		F8B2744924B70AF3007A48E0 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		F8D229A224AB28EC001F7EAB /* CardEffections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEffections.swift; sourceTree = "<group>"; };
+		F8D229B024AF3E60001F7EAB /* GeometryReaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,21 +55,13 @@
 			isa = PBXGroup;
 			children = (
 				F8813F4124A1A1FD00E4201D /* SwiftDemos */,
-				F8813F4024A1A1FD00E4201D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		F8813F4024A1A1FD00E4201D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8813F3F24A1A1FD00E4201D /* SwiftDemos.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F8813F4124A1A1FD00E4201D /* SwiftDemos */ = {
 			isa = PBXGroup;
 			children = (
+				F8B2744624B6EC13007A48E0 /* JSBridge */,
 				F8813F4224A1A1FD00E4201D /* AppDelegate.swift */,
 				F8813F4424A1A1FD00E4201D /* SceneDelegate.swift */,
 				F8813F4624A1A1FD00E4201D /* ContentView.swift */,
@@ -63,6 +69,11 @@
 				F8813F4D24A1A1FE00E4201D /* LaunchScreen.storyboard */,
 				F8813F5024A1A1FE00E4201D /* Info.plist */,
 				F8813F4A24A1A1FE00E4201D /* Preview Content */,
+				F8D229A224AB28EC001F7EAB /* CardEffections.swift */,
+				F8D229B024AF3E60001F7EAB /* GeometryReaderDemo.swift */,
+				F8B2743E24B42A94007A48E0 /* ListUpdatesDemo.swift */,
+				F8B2744224B5D650007A48E0 /* ButtonDemos.swift */,
+				F8B2744424B6EAE1007A48E0 /* Demo4JSbridage.swift */,
 			);
 			path = SwiftDemos;
 			sourceTree = "<group>";
@@ -73,6 +84,15 @@
 				F8813F4B24A1A1FE00E4201D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8B2744624B6EC13007A48E0 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2744724B6EFC6007A48E0 /* Webview.swift */,
+				F8B2744924B70AF3007A48E0 /* Bridge.swift */,
+			);
+			path = JSBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +139,7 @@
 				Base,
 			);
 			mainGroup = F8813F3624A1A1FD00E4201D;
-			productRefGroup = F8813F4024A1A1FD00E4201D /* Products */;
+			productRefGroup = F8813F3624A1A1FD00E4201D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -146,9 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B2744A24B70AF3007A48E0 /* Bridge.swift in Sources */,
+				F8B2744324B5D650007A48E0 /* ButtonDemos.swift in Sources */,
+				F8B2743F24B42A94007A48E0 /* ListUpdatesDemo.swift in Sources */,
 				F8813F4324A1A1FD00E4201D /* AppDelegate.swift in Sources */,
+				F8B2744824B6EFC6007A48E0 /* Webview.swift in Sources */,
+				F8B2744524B6EAE1007A48E0 /* Demo4JSbridage.swift in Sources */,
 				F8813F4524A1A1FD00E4201D /* SceneDelegate.swift in Sources */,
 				F8813F4724A1A1FD00E4201D /* ContentView.swift in Sources */,
+				F8D229B124AF3E60001F7EAB /* GeometryReaderDemo.swift in Sources */,
+				F8D229A324AB28EC001F7EAB /* CardEffections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
